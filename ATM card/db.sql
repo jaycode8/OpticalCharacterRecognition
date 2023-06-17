@@ -1,0 +1,15 @@
+
+-- the used databse program
+
+CREATE DATABASE OCR_Python IF NOT EXISTS;
+
+USE OCR_Python;
+
+CREATE TABLE ATMCard(
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    ACC_NO VARCHAR(100) NOT NULL, 
+    HOLDER VARCHAR(100) NOT NULL, 
+    Expires VARCHAR(10) NOT NULL
+);
+
+

@@ -1,0 +1,8 @@
+
+#================= required libraries in this project ==============
+#================= run pip install -r requirements.tx ==============
+
+opencv-python
+pytesseract
+pymongo
+numpy
